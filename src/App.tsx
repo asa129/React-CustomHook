@@ -1,13 +1,14 @@
 import './App.css'
 import { UserCard } from './components/UserCard'
-import { User } from "./types/user";
+import { UserProfile } from "./types/userProfile";
+
+const user: UserProfile = {
+  name: 'あああ',
+  email: 'aaa.gmail.com',
+  address: 'あ',
+}
 
 function App() {
-  const user: User = {
-    name: 'あああ',
-    username: 'あ',
-    email: 'aaa.gmail.com',
-  }
 
   return (
     <>
